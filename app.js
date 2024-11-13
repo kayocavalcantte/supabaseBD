@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 const supabase = 
-    supabaseClient.createClient('', '')
+    supabaseClient.createClient('https://vldzgqflpthizcomqtvb.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZsZHpncWZscHRoaXpjb21xdHZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA3NTM2MzAsImV4cCI6MjA0NjMyOTYzMH0.N9preuni1iz-fBki3JJRh-pTsoDgR6YB4CYCuya0GXA')
 
 
 app.get('/products', async (req, res) => {
